@@ -8,7 +8,7 @@ const ErrorHandler = require('../utils/ErrorHandler');
 //create user
 router.post(
     "/create-user",
-    upload.single("file"),
+    upload.single("file"), 
     async (req, res, next) => {
         const { name, email, password } = req.body;
         const userEmail = await User.findOne({ email });
