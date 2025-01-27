@@ -1,28 +1,30 @@
-# E-Commerce-Follow-Along
-It contains 4 parts.
-order Page{contains orders of all the users}
-Products Page{contains products for the users to see}
-Authentication
-PaymentGateway
+const express = require("express");
+const app = express();
+const ErrorHandler = require("./middleware/error");
+const cookieParser = require("cookie-parser");
+const bodyParser = require("body-parser");
+const cors = require("cors");
 
->New Feature Added:
 
--->Login Page:
-A user-friendly login page has been added, featuring:
-Email and password validation.
-A "Show/Hide Password" toggle for enhanced user experience.
-Error handling for invalid email format and password length.
-Loading state to indicate the process of authentication.
-Navigation to a signup page for new users.
+app.use(express.json());
+app.use(cookieParser());
+app.use(cors());
+app.use("/", express.static("uploads"));
+app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 
--->Technologies Used:
-React (Frontend)
-Tailwind CSS (Styling)
-React Router (Routing)
-Express.js (Backend)
-Stripe/PayPal (Payment Gateway)
+// config
+if (process.env.NODE_ENV !== "PRODUCTION") {
+    require("dotenv").config({
+        path: "backend/config/.env",
+    });
+}
 
--->Installation & Setup:
-Clone the repository.
-Run npm install to install dependencies.
-Start the development server with npm start.
+// import Routes
+const user = require("./controller/user");
+
+app.use("/api/v2/user", user);
+
+// it's for ErrorHandling
+app.use(ErrorHandler);
+
+module.exports = app;
