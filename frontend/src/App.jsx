@@ -1,18 +1,22 @@
-import { BrowserRouter,Routes,Route } from "react-router-dom"; 
-import { LoginPage,SignupPage } from './routes.jsx'
+import React from "react";
+import { BrowserRouter , Routes , Route} from "react-router-dom";
+import { LoginPage , SignupPage, CreateProduct, Home } from "./Routes.jsx";
+import './App.css' ;
 
-import './App.css';
 
-function App(){
-  return(
+function App (){
+  return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/login" element={<LoginPage/>}/>
-        <Route path="/signup" element={<SignupPage/>}/>
+    <Routes>
+    <Route path="/" element={<Home/>} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/signup" element={<SignupPage />} />
+      <Route path="/create-product" element={<CreateProduct/>}/>
+      
 
-      </Routes>
+    
+    </Routes>
     </BrowserRouter>
   )
 }
-
 export default App;
