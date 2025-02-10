@@ -368,3 +368,28 @@ Use fetch or Axios to call the backend endpoint.
 Display the Products Dynamically
 
 Pass the fetched data to a ProductCard component for rendering
+### Milestone 13: Updating Data in MongoDB
+
+📌 Objective
+
+In this milestone, we will implement an update feature for our application. This will include:
+
+Creating an endpoint in the backend to update data in MongoDB.
+
+Adding an "Edit" button to the product card in the frontend.
+
+Pre-filling a form with existing product details when the edit button is clicked.
+
+Allowing users to modify the data and save changes.
+
+ Backend: Implementing Update Endpoint
+
+Step 1: Define the Update Route
+
+In your Express server, create an endpoint that will handle update requests.
+Step 2: Connect Endpoint to MongoDB
+
+Ensure your database connection is set up in server.js or app.js.
+Step 3: Add an Edit Button to Product Card
+
+Modify your product card component to include an "Edit" button.
