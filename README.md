@@ -393,3 +393,24 @@ Ensure your database connection is set up in server.js or app.js.
 Step 3: Add an Edit Button to Product Card
 
 Modify your product card component to include an "Edit" button.
+### Milestone 14: Deleting Data from MongoDB
+
+🎯 Objective
+
+In this milestone, we will implement a DELETE operation in MongoDB using an API endpoint. We will also integrate a delete button in the frontend to allow users to remove data from the database by sending the product ID to the backend.
+
+📌 Steps to Implement
+Create the Delete EndpointFrontend Implementation
+
+Add a Delete Button
+
+Modify your product card component (e.g., ProductCard.js) to include a delete button
+✅ Summary
+
+Created a DELETE API endpoint in Express to remove a product by ID.
+
+Added a delete button in the frontend to call the endpoint.
+
+Ensured that the backend and frontend interact correctly to delete data.
+
+This milestone provides a detailed understanding of handling DELETE operations in a full-stack application
