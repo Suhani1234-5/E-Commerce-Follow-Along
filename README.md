@@ -414,3 +414,27 @@ Added a delete button in the frontend to call the endpoint.
 Ensured that the backend and frontend interact correctly to delete data.
 
 This milestone provides a detailed understanding of handling DELETE operations in a full-stack application
+
+### Milestone 15:Responsive Navbar Components
+
+# Overview
+
+This project includes the creation of a responsive navigation bar component (Nav component) that provides smooth navigation across multiple pages within the application. The Nav component will contain links to the following pages:
+
+1. Home
+
+2. My Products
+
+3. Add Product
+
+4. Cart
+
+*The navigation bar will be designed to adapt seamlessly to all screen sizes, ensuring an optimal user experience across devices. The Nav component will be added to all pages, facilitating easy and intuitive navigation throughout the application.*
+
+# Features
+
+1. Responsive navigation bar that adjusts to different screen sizes.
+
+2. Smooth navigation between pages.
+
+3. A user-friendly interface for accessing different sections of the application.
