@@ -438,3 +438,25 @@ This project includes the creation of a responsive navigation bar component (Nav
 2. Smooth navigation between pages.
 
 3. A user-friendly interface for accessing different sections of the application.
+
+
+### Milestone 16: Product Info Page
+# Overview
+
+This is a React-based e-commerce project built using Vite. The project includes features such as product listing, adding products to the cart, and managing quantities. It utilizes react-router-dom for navigation, axios for data fetching, and dotenv for managing environment variables.
+
+# Features
+
+1. Product listing page displaying all available products.
+
+2. Individual product details page.
+
+3. Add to Cart functionality with quantity selection.
+
+4. Shopping cart page displaying selected products.
+
+5. State management using React Context.
+
+6. Responsive UI for seamless experience across devices.
+
+7. Environment variable support for API integration.
