@@ -470,3 +470,20 @@ This schema will store cart items with fields like userId, productId, quantity, 
 3: Write an API Endpoint to Add Products to the Cart
 We'll create an API route that accepts product details and stores them in the database.
 
+### Milestone 18 📝
+
+1. Create a Backend Endpoint for Cart Page
+
+We need to create an API endpoint that allows the frontend to fetch the cart items for a specific user.
+
+2. Implement the Endpoint Logic
+
+Retrieve the user's email from the request.
+
+Query the database to fetch all products inside the cart associated with that user.
+
+Return the cart data as a JSON response.
+
+3. Test the Endpoint
+
+Use tools like Postman or cURL to send requests and verify that the correct data is returned.
