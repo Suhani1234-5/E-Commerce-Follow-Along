@@ -460,3 +460,13 @@ This is a React-based e-commerce project built using Vite. The project includes 
 6. Responsive UI for seamless experience across devices.
 
 7. Environment variable support for API integration.
+### milestone 17
+1: Update User Schema to Store Cart Products
+We'll modify the user schema to include a cart field that stores product details.
+
+2: Create a Cart Schema
+This schema will store cart items with fields like userId, productId, quantity, etc.
+
+3: Write an API Endpoint to Add Products to the Cart
+We'll create an API route that accepts product details and stores them in the database.
+
