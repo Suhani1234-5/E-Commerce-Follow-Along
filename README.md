@@ -490,3 +490,7 @@ Use tools like Postman or cURL to send requests and verify that the correct data
 
 ### Milestone 19:
 In this milestone, we have implemented a cart page that displays the products added to the cart using the backend API from Milestone 18. Each product in the cart has an option to increase or decrease its quantity using + and - buttons. When a user interacts with these buttons, the frontend calls newly created backend endpoints to update the product quantity in real time. The backend includes two endpoints: one to increase the product quantity and another to decrease it, ensuring that the quantity does not go below one. This milestone enhances the user experience by allowing seamless cart management and provides a smooth and interactive shopping experience.
+
+
+### Milestone 20
+In this milestone, we have implemented a backend endpoint that retrieves all user data and sends it via email. Additionally, we have created a frontend profile page that displays the user's profile photo, name, and email in one section, while another section lists their saved addresses. If no addresses are found, the page displays a message stating "No address found." To enhance usability, we have also included an "Add address" button, allowing users to easily manage their addresses. This milestone helps in understanding how to structure and display user profile data efficiently while integrating backend functionality for data retrieval and communication.
