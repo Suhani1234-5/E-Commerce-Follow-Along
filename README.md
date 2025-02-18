@@ -487,3 +487,6 @@ Return the cart data as a JSON response.
 3. Test the Endpoint
 
 Use tools like Postman or cURL to send requests and verify that the correct data is returned.
+
+### Milestone 19:
+In this milestone, we have implemented a cart page that displays the products added to the cart using the backend API from Milestone 18. Each product in the cart has an option to increase or decrease its quantity using + and - buttons. When a user interacts with these buttons, the frontend calls newly created backend endpoints to update the product quantity in real time. The backend includes two endpoints: one to increase the product quantity and another to decrease it, ensuring that the quantity does not go below one. This milestone enhances the user experience by allowing seamless cart management and provides a smooth and interactive shopping experience.
