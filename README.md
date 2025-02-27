@@ -502,3 +502,7 @@ Steps 📝
 Build the address form page.
 Store input values in state.
 Navigate to this form when clicking "Add Address" in the profile.
+
+### Steps for Milestone 22📝
+You need to create an endpoint that will receive the address from address form in frontend
+Add the address to the address array inside user collection.
