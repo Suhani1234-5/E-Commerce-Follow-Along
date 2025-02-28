@@ -506,3 +506,12 @@ Navigate to this form when clicking "Add Address" in the profile.
 ### Steps for Milestone 22📝
 You need to create an endpoint that will receive the address from address form in frontend
 Add the address to the address array inside user collection.
+
+### Ecommerce Follow Along - Milestone 23
+🚀 Overview
+In this milestone, we implemented the "Place Order" functionality in our eCommerce app by:
+
+1.Adding a Place Order button inside the Cart Page
+2.Creating a Select Address Page to choose a delivery address
+3.Writing a Mongoose schema for storing order details
+4.Developing a backend endpoint to fetch user addresses
