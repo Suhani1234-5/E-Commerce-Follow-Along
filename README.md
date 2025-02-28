@@ -515,3 +515,10 @@ In this milestone, we implemented the "Place Order" functionality in our eCommer
 2.Creating a Select Address Page to choose a delivery address
 3.Writing a Mongoose schema for storing order details
 4.Developing a backend endpoint to fetch user addresses
+
+
+### Steps for Milestone 24 📝
+1️⃣ Display Ordered Products – Show a list of all products in the order, including images, names, prices, and quantities.
+2️⃣ Show Delivery Address – Display the user's selected shipping address.
+3️⃣ Calculate and Display Total Price – Show a breakdown of the subtotal, shipping fees (if any), and the final total amount.
+4️⃣ Implement "Place Order" Button – Add a button that allows users to confirm their purchase and proceed to the next step.

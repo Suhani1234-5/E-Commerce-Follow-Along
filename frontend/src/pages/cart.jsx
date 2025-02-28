@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'; // Import the useNavigate hook
 const Cart = () => {
 
   const [products, setProducts] = useState([]);
-  const navigate = useNavigate(); // Initialize navigate
+  const navigate = useNavigate(); // Initialize navigatea
 
   useEffect(() => {
     fetch(`http://localhost:8000/api/v2/product/cartproducts?email=${'suhani674@gmail.com'}`)
