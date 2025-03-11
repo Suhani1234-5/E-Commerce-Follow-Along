@@ -529,3 +529,10 @@ In this milestone, we implemented the "Place Order" functionality in our eCommer
 2. You will get the mail of the user using that you need to retrive the _id of the user
 3. For each product the order will be different with same address
 4. using order schema you created earlier you will store order details in mongodb order collection
+
+
+### Steps for Milestone 26📝
+You need to create an endpoint that will receive the user mail
+You will get the mail of the user using that you need to retrive the _id of the user
+Using that _id you need to get all the orders of that user
+Send all the users orders in the response.
