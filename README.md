@@ -522,3 +522,10 @@ In this milestone, we implemented the "Place Order" functionality in our eCommer
 2️⃣ Show Delivery Address – Display the user's selected shipping address.
 3️⃣ Calculate and Display Total Price – Show a breakdown of the subtotal, shipping fees (if any), and the final total amount.
 4️⃣ Implement "Place Order" Button – Add a button that allows users to confirm their purchase and proceed to the next step.
+
+
+### Steps for Milestone 25📝
+1. You need to create an endpoint that will receive the products, user, address details
+2. You will get the mail of the user using that you need to retrive the _id of the user
+3. For each product the order will be different with same address
+4. using order schema you created earlier you will store order details in mongodb order collection
