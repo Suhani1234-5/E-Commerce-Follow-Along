@@ -22,6 +22,7 @@ const Login = () => {
       const response = await axios.post("http://localhost:8000/api/v2/user/login", { email, password }, {withCredentials: true,});
       console.log(response.data);
       alert("Logged in successfully!");
+      
       // Dispatch email to Redux state (token is now handled via cookies)
       dispatch(setemail(email));
       // Redirect to home or profile page after successful login

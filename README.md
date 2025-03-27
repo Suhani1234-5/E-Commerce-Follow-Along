@@ -617,3 +617,10 @@ In Index.js file make sure to wrap APP component inside provider component with 
 ### Steps for Milestone 32📝
 In Login page we will use Dispatch method to store the mail inside global state
 In all the remaining pages acc the mail stored in global state using useSelector
+
+
+### Steps for Milestone 33📝
+Download jsonwebtoken package using NPM
+Use sign method to create an JWT token with mail and ID
+Give maxAge to set expire time
+Add the cookie inside the response that helps you to store the cookie inside browser.
